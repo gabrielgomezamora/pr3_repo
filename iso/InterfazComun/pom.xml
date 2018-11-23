@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>ISO2</groupId>
+    <artifactId>PracticaISO2</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+  </parent>
+  <artifactId>InterfazComun</artifactId>
+  <name>InterfazComun</name>
+  <description>Aqui se va a guardar la interfaz que ejecutará el programa</description>
+  
+  	<dependencies>
+		<dependency>
+			<groupId>ISO2</groupId>
+			<artifactId>ReservaMesa</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>ISO2</groupId>
+			<artifactId>Persistencia</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>ISO2</groupId>
+			<artifactId>VisualizarTurno</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	
+</project>
